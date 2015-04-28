@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+       android:shape="rectangle">
+
+    <!-- 填充的颜色 -->
+    <solid android:color="@color/gray_eaeaea"/>
+
+    <!-- 设置按钮的左下、右下角为弧形 -->
+    <corners
+        android:bottomLeftRadius="15px"
+        android:bottomRightRadius="15px"/>
+
+</shape> 

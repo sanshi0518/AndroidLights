@@ -45,7 +45,7 @@ public class ClearableEditText extends EditText implements View.OnFocusChangeLis
 
         // 假如没有设置就使用默认的图片
         if (mClearDrawable == null)
-            mClearDrawable = getResources().getDrawable(R.drawable.img_delete);
+            mClearDrawable = getResources().getDrawable(R.drawable.edittext_clearable_delete_img);
 
         mClearDrawable.setBounds(0, 0, mClearDrawable.getIntrinsicWidth(), mClearDrawable.getIntrinsicHeight());
 

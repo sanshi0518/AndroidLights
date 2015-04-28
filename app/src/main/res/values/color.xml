@@ -2,5 +2,8 @@
 <resources>
 
     <color name="gray_cecece">#CECECE</color>
+    <color name="gray_f7f7f7">#F7F7F7</color>
+    <color name="gray_eaeaea">#EAEAEA</color>
+    <color name="orange_ff9133">#ff9133</color>
 
 </resources>

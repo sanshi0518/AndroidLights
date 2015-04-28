@@ -1,7 +1,13 @@
 <resources>
     <string name="app_name">Android Lights</string>
 
+    <string name="prompt">提示</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="iknow">我知道了</string>
+
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_clearable_edit_text">ClearableEditTextActivity</string>
+    <string name="title_activity_iosstyle_dialog">IOSStyleDialogActivity</string>
 </resources>
