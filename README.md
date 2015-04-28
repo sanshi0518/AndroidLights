@@ -1,2 +1,2 @@
 # AndroidLights
-A collection of excellent Android components
+Collections of useful Android widgets and libraries.
