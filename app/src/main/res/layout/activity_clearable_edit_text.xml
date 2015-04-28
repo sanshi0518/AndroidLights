@@ -1,0 +1,31 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context="com.github.sanshi0518.androidlights.activity.ClearableEditTextActivity">
+
+    <com.github.sanshi0518.androidlights.widget.ClearableEditText
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="9dp"
+        android:id="@+id/clearableEditText"
+        android:singleLine="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_white_rounded_corners"
+        android:textSize="13sp"
+        android:hint="搜索提示"
+        android:textColorHint="@color/gray_cecece"
+        android:drawableLeft="@drawable/img_search"
+        android:drawableRight="@drawable/img_delete"
+        android:drawablePadding="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"/>
+
+</RelativeLayout>
